@@ -58,6 +58,10 @@ body {
     padding: 20px;
 }
 
+.main-image {
+    border: 4px dotted red;
+}
+
 .col {
     display: flex;
     flex-direction: column;
