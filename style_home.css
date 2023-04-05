@@ -84,6 +84,13 @@ body {
     justify-content: center;
 }
 
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-table {
     display: flex;
     justify-content: center;
@@ -91,6 +98,12 @@ body {
     width: 500px;
     height: 150px;
     margin: auto;
+}
+
+#headings {
+    text-align: center;
+    text-transform: capitalize;
+    color: coral;
 }
 
 table {
