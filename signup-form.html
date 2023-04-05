@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>forms using html</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-signup.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <form action="forms.html" method="POST">
+                <h1>sign up</h1>
+                <fieldset>
+                    <legend>your basic info</legend>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="user_name"><br>
+                    <label for="mail">Email:</label><br>
+                    <input type="email" id="mail" name="user_email"><br>
+                    <label for="password">password:</label><br>
+                    <input type="password" id="password" name="user_password"><br>
+                    <label>Age:</label><br>
+                    <input type="radio" id="under_13" value="under_13" name="user_age"><label>under 13</label><br>
+                    <input type="radio" id="over_13" value="over_13" name="user_age"><label>13 and more</label>
+                </fieldset>
+        </header>
+        <fieldset>
+            <legend>your biography</legend><br>
+            <label for="bio">biography</label><br>
+            <textarea id="bio" name="user_bio"></textarea><br>
+            <label for="job">job role</label>
+            <select id="job" name="user_job">
+    <optgroup label="WEB">
+    <option value="front end developer">front end developer</option>
+    <option value="back end developer">back end developer</option>
+    <option value="full stack developer">full stack developer</option>
+    <option value="php developer">PHP developer</option>
+  </optgroup>
+  <optgroup label="mobile">
+    <option value="android developer">android developer</option>
+    <option value="IOS developer">IOS developer</option>
+    <option value="mobile developer">mobile developer</option>
+  </optgroup>
+  <optgroup label="business">
+    <option value="business owner">business owner</option>
+    <option value="freelancer">free lancer</option><br>
+  </optgroup>
+  </select><br>
+            <label>Interests:</label><br>
+            <input type="checkbox" id="interest_developement" name="user_interest"><label for="interest_development">developement</label><br>
+            <input type="checkbox" id="interest_design" name="user_interest"><label for="interest_design">design</label><br>
+            <input type="checkbox" id="interest_business" name="user_interest"><label for="interest_business">business</label>
+        </fieldset>
+        <button type="submit">sign up</button>
+        </form>
+
+
+
+
+    </main>
+</body>
+
+</html>
