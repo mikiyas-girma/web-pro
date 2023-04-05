@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(194, 241, 239);
+}
+
+.main-header {
+    margin-top: -24px;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav {
+    font-size: 23px;
+    padding: 0px;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+
+#nav li {
+    display: inline-block;
+    list-style-type: none;
+    border: 2px solid tomato;
+    border-radius: 7px;
+    border-right: solid 2px #e2e2e2;
+    padding: 1px 2px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: gold;
+}
+
+#main-title {
+    text-align: center;
+    font-family: 'Abolition Regular';
+    font-size: 66px;
+    letter-spacing: 2.7px;
+    color: tomato;
+    border-bottom: 2px solid grey;
+    padding-top: 0px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+    /* height: 250px; */
+    /* width: 400px; */
+    text-shadow: -3px 2px #434a52;
+}
+
+.main-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+a:link {
+    color: deepskyblue;
+    text-decoration: none;
+    padding: 0px 3px;
+    margin-right: 1px;
+}
+
+a:visited {
+    color: rgba(0, 0, 255);
+}
+
+a:hover {
+    color: rgba(15, 119, 222, .8);
+}
