@@ -70,10 +70,18 @@ body {
 }
 
 .bio {
+    width: 75%;
     border: solid 3px black;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
+}
+
+#intro-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-table {
@@ -89,7 +97,6 @@ table {
     border: solid 3px rgb(218, 131, 131);
     margin: auto;
     border-collapse: collapse;
-    width: 100%;
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
 }
